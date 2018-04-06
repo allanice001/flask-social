@@ -1,4 +1,4 @@
-{%- if current_user.is_authenticated() -%}
+{%- if current_user.is_authenticated -%}
   <p>Hello {{ current_user.email }}</p>
 {%- endif %}
 <ul>
