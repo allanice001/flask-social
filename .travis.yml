@@ -6,8 +6,8 @@ python:
 
 install:
   - pip install .
-  - "if [[ $TRAVIS_PYTHON_VERSION == '2.6' ]]; then pip install importlib --quiet --use-mirrors; fi"
-  - pip install nose simplejson Flask-SQLAlchemy Flask-MongoEngine Flask-Peewee Flask-Mail mock MySQL-python
+  - pip install nose simplejson Flask-SQLAlchemy Flask-MongoEngine Flask-Peewee Flask-Mail mock
+  - pip install git+https://github.com/allanice001/MySQLdb1
   - pip install oauth2client google-api-python-client foursquare python-twitter
   - pip install http://github.com/pythonforfacebook/facebook-sdk/tarball/master
 
