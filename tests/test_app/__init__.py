@@ -7,7 +7,7 @@ from werkzeug import url_decode
 class Config(object):
 
     WTF_CSRF_ENABLED = False
-
+    SECURITY_PASSWORD_SALT = 'Salt'
     SOCIAL_TWITTER = {
         'consumer_key': 'xxxx',
         'consumer_secret': 'xxxx'
