@@ -6,7 +6,7 @@ python:
 
 install:
   - pip install .
-  - pip install nose simplejson Flask-SQLAlchemy Flask-MongoEngine Flask-Peewee Flask-Mail mock
+  - pip install nose simplejson Flask-SQLAlchemy Flask-MongoEngine Flask-Peewee Flask-Mail mock bcrypt
   - pip install git+https://github.com/allanice001/MySQLdb1
   - pip install oauth2client google-api-python-client foursquare python-twitter
   - pip install http://github.com/pythonforfacebook/facebook-sdk/tarball/master
